@@ -1,0 +1,7 @@
+<button (click)="addStudents()">Add Student</button>
+
+<div>
+  <p *ngFor="let student of students">
+    Id: {{student.id}}  Name: {{student.name}}
+  </p>
+</div>
